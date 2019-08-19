@@ -1,5 +1,6 @@
 import React from "react";
-import { Layout, Menu, Icon } from "antd";
+import { Layout, Menu, Icon, Col, Row } from "antd";
+import ShipCard from "../ship/Ship";
 
 const { Header, Content, Footer, Sider } = Layout;
 
@@ -58,9 +59,7 @@ class sample extends React.Component {
             甲午档案
           </Header>
           <Content style={{ margin: "20px 16px" }}>
-            <div style={{ padding: 24, background: "#fff", minHeight: 360 }}>
-              甲午战争的历史
-            </div>
+            <ShipCard />
           </Content>
           <Footer style={{ textAlign: "center" }}>
             甲午档案 ©2019 Created by paladinze

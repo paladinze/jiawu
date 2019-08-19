@@ -1,0 +1,7 @@
+type Event {
+  id: ID! @id
+  title: String!
+  subtitle: String!
+  updatedAt: DateTime! @updatedAt
+  createdAt: DateTime! @createdAt
+}

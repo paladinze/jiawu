@@ -1,0 +1,7 @@
+type People {
+  id: ID! @id
+  name: String!
+  nation: String!
+  updatedAt: DateTime! @updatedAt
+  createdAt: DateTime! @createdAt
+}
